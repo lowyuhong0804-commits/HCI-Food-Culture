@@ -1,0 +1,67 @@
+<link rel='stylesheet' href='style.css'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Culture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Food<span>&Culture</span></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Traditional Dishes
+</a></li>
+            <li><a href="#">Cafés & Restaurants
+
+</a></li>
+            <li><a href="#">Cultural Festivals
+</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <h1>Taste the Heritage</h1>
+            <p>Exploring the intersection of global traditions and culinary art.</p>
+            <a href="#culture" class="btn">Explore Stories</a>
+        </div>
+    </header>
+
+    <section class="culture-section" id="culture">
+        <h2 class="section-title">Cultural Highlights</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Tradition">
+                <h3>Ancient Spices</h3>
+                <p>Learn how the Silk Road shaped the flavors we love today.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80" alt="Street Food">
+                <h3>Street Soul</h3>
+                <p>The history of bustling night markets and communal eating.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=400&q=80" alt="Fine Dining">
+                <h3>The Modern Table</h3>
+                <p>How chefs are reinventing traditional dishes for a new generation.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+            <p>&copy; 2026 HCI-LOW YU HONG</p>
+        </div>
+    </footer>
+
+</body>
+</html>
